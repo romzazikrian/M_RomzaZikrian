@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -14,7 +17,7 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -28,38 +31,39 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
 </head>
 
 <body class="index-page">
 
+  <!-- ======= HEADER ======= -->
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container d-flex align-items-center justify-content-between">
 
       <!-- LOGO -->
-      <a href="{{ route('home') }}" class="logo me-auto">
+      <a href="#hero" class="logo me-auto">
         <h1><strong>Portfolio</strong></h1>
       </a>
 
       <!-- NAVBAR MENU -->
       <nav id="navmenu" class="navmenu ms-auto">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="education.html">Education</a></li>
-          <li><a class="nav-link scrollto" href="skills.html">Skills</a></li>
-          <li><a class="nav-link scrollto" href="project.html">Project</a></li>
-          <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#education">Education</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+          <li><a class="nav-link scrollto" href="#projects">Project</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
       </nav>
 
     </div>
   </header>
 
+  <!-- ======= MAIN ======= -->
   <main class="main">
 
-    <!-- Hero Section -->
+    <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 align-items-center">
@@ -78,10 +82,9 @@
                 Creative <span class="typed" data-typed-items="Portfolio"></span>
               </h2>
               <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
-                <a href="about.html" class="btn btn-primary">View My Work</a>
+                <a href="#about" class="btn btn-primary">View My Work</a>
                 <a href="contact.html" class="btn btn-outline">Kontak Saya</a>
               </div>
-
 
               <div class="social-links" data-aos="fade-up" data-aos-delay="600">
                 <a href="https://www.instagram.com/mhmmdromza/" target="_blank"><i class="bi bi-instagram"></i></a>
@@ -118,21 +121,861 @@
       </div>
     </section><!-- /Hero Section -->
 
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-title text-center mb-5">
+          <h2 class="fw-bold">ABOUT ME</h2>
+        </div>
+        <div class="row align-items-center justify-content-between gy-5 mb-5">
+          <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
+            <div class="intro-content">
+              <span class="eyebrow">Hello there</span>
+              <h2 class="headline">WHO AM I ?</h2>
+              <p class="lead">
+                Saya merupakan lulusan S1 Informatika Universitas Teknokrat Indonesia yang siap
+                berkontribusi secara positif pada perusahaan.
+                Memiliki keterampilan dalam administrasi, pengolahan data, serta penguasaan Microsoft
+                Office.
+                Berpengalaman dalam pengembangan website dan pengelolaan sistem berbasis teknologi,
+                sehingga mampu mendukung proses digitalisasi administrasi.
+                Terbiasa menyusun dokumentasi dan laporan, serta memiliki kemampuan komunikasi, kerja
+                tim, dan manajemen waktu yang baik
+                untuk menunjang kelancaran operasional perusahaan.
+              </p>
+              <div class="cta-group">
+                <a href="https://drive.google.com/file/d/1mFhzMFyJJSLKoIuBpqI73aVwoGMkt_hI/view?usp=sharing"
+                  class="btn-download" target="_blank">
+                  <i class="bi bi-download"></i> Download Resume
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
+            <figure class="profile-figure text-center text-lg-end">
+              <img src="assets/img/profile/romza1.png" alt="M. Romza Zikrian" class="img-fluid profile-photo">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="main">
+      <section id="education" class="resume section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="section-title text-center mb-5">
+            <h2 class="fw-bold">Education</h2>
+          </div>
+          <!-- Baris 1: Pendidikan & Pengalaman Akademik -->
+          <div class="row">
+            <!-- Pendidikan -->
+            <div class="col-lg-6">
+              <div class="resume-item mb-4" data-aos="fade-up">
+                <h3 class="resume-title">PENDIDIKAN</h3>
+                <div class="resume-content">
+                  <article class="education-item mb-4">
+                    <h4>Universitas Teknokrat Indonesia</h4>
+                    <h5>Sep 2021 – Dec 2024</h5>
+                    <p><em>S1 Informatika</em></p>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pengalaman Akademik -->
+            <div class="col-lg-6">
+              <div class="resume-item mb-4" data-aos="fade-up">
+                <h3 class="resume-title">PENGALAMAN AKADEMIK</h3>
+                <div class="resume-content">
+                  <article class="education-item mb-4">
+                    <h4>Program Kampus Mengajar Angkatan 7 – MBKM</h4>
+                    <h5>Feb 2024 – Jun 2024</h5>
+                    <p><em>Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi
+                        (Kemendikbudristek)</em></p>
+                    <ul>
+                      <li>Berpartisipasi dalam program <em>Merdeka Belajar Kampus Merdeka (MBKM)</em>
+                        sebagai asisten pengajar di sekolah dasar.</li>
+                      <li>Membantu guru dalam proses pembelajaran literasi dan numerasi.</li>
+                      <li>Melatih kemampuan komunikasi, kepemimpinan, dan kolaborasi lintas bidang
+                        pendidikan.</li>
+                    </ul>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Baris 2: Pengalaman Organisasi -->
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="resume-item mb-4 text-center" data-aos="fade-up">
+                <h3 class="resume-title">PENGALAMAN ORGANISASI</h3>
+                <div class="resume-content text-start">
+
+                  <article class="education-item mb-4">
+                    <h4>UKM Duta Kampus Teknokrat</h4>
+                    <h5>Okt 2022 – Sep 2023</h5>
+                    <p><em>Wakil Ketua Divisi Kominfo</em></p>
+                    <ul>
+                      <li>Mengelola publikasi digital, dokumentasi kegiatan setiap program kerja.</li>
+                      <li>Terlibat dalam promosi universitas dan pengembangan kegiatan kampus.</li>
+                      <li>Menjalin komunikasi efektif antaranggota, pengurus, dan alumni untuk
+                        memperkuat kolaborasi.</li>
+                    </ul>
+                  </article>
+
+                  <article class="education-item mb-4">
+                    <h4>Himpunan Mahasiswa Informatika (HIMA IF)</h4>
+                    <h5>Jan 2024 – Jan 2025</h5>
+                    <p><em>Anggota Hubungan Masyarakat</em></p>
+                    <ul>
+                      <li>Merancang dan melaksanakan kegiatan internal untuk meningkatkan solidaritas
+                        anggota.</li>
+                      <li>Menjalin dan menjaga hubungan komunikasi antarlembaga untuk memperkuat
+                        jaringan organisasi.</li>
+                      <li>Mendukung koordinasi acara dan kegiatan sosial kampus.</li>
+                    </ul>
+                  </article>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- ======= Sertifikat Akademik Section ======= -->
+      <section id="certifications" class="certifications section py-5"
+        style="background: linear-gradient(135deg, #111827, #1f2937);">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <!-- Section Title -->
+          <div class="section-title text-center mb-5">
+            <h2 class="fw-bold text-white">SERTIFIKAT AKADEMIK</h2>
+            <p class="text-light">
+              Beberapa sertifikat pelatihan dan kompetensi yang telah saya peroleh untuk
+              mendukung keahlian profesional saya.
+            </p>
+          </div>
+
+          <!-- Certificate Cards -->
+          <div class="row g-4 justify-content-center">
+
+            <!-- Sertifikat 1 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="150">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/mikrotik.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Pelatihan Mikrotik - Universitas Teknokrat Indonesia">
+                  <img src="assets/img/sertifikat/mikrotik.png" class="card-img-top rounded-top"
+                    alt="Certificate Pelatihan Mikrotik">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Pelatihan Mikrotik</h5>
+                  <p class="text-muted mb-1">Universitas Teknokrat Indonesia</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 4 Mei 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 2 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="250">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/office.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Competency Based Microsoft Office - Universitas Teknokrat Indonesia">
+                  <img src="assets/img/sertifikat/office.png" class="card-img-top rounded-top"
+                    alt="Certificate Microsoft Office">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Competency Based Microsoft Office</h5>
+                  <p class="text-muted mb-1">Universitas Teknokrat Indonesia</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 9 September 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 3 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="350">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/dg.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Competency Based Desain Grafis - Universitas Teknokrat Indonesia">
+                  <img src="assets/img/sertifikat/dg.png" class="card-img-top rounded-top"
+                    alt="Certificate Desain Grafis">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Competency Based Desain Grafis</h5>
+                  <p class="text-muted mb-1">Universitas Teknokrat Indonesia</p>
+                  <p class="small text-secondary">Diterbitkan: 7 November 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 4 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="450">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/networking.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Competency Based Troubleshooting & Jaringan Komputer - Universitas Teknokrat Indonesia">
+                  <img src="assets/img/sertifikat/networking.png" class="card-img-top rounded-top"
+                    alt="Certificate Networking">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">
+                    Troubleshooting & Jaringan Komputer
+                  </h5>
+                  <p class="text-muted mb-1">Universitas Teknokrat Indonesia</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 28 November 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 5 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="550">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/bas.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Basic Research Methodology - Universitas Teknokrat Indonesia">
+                  <img src="assets/img/sertifikat/bas.png" class="card-img-top rounded-top"
+                    alt="Certificate Basic Research">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Basic Research Methodology</h5>
+                  <p class="text-muted mb-1">Universitas Teknokrat Indonesia</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 10 Juni 2023</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 6 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="650">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/dq.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="R Fundamental for Data Science - DQLab">
+                  <img src="assets/img/sertifikat/dq.png" class="card-img-top rounded-top" alt="Certificate DQLab">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">R Fundamental for Data Science</h5>
+                  <p class="text-muted mb-1">DQLab</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 20 Maret 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 7 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="750">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/jun.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Junior Web Application Programmer - Universitas Teknokrat Indonesia">
+                  <img src="assets/img/sertifikat/jun.png" class="card-img-top rounded-top"
+                    alt="Certificate Junior Web App">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Junior Web Application Programmer</h5>
+                  <p class="text-muted mb-1">Universitas Teknokrat Indonesia</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 10 Juni 2023</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 8 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="850">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/webii.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Pemrograman WEB II Academic Expo - Universitas Teknokrat Indonesia">
+                  <img src="assets/img/sertifikat/webii.png" class="card-img-top rounded-top" alt="Certificate Web II">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Pemrograman WEB II Academic Expo</h5>
+                  <p class="text-muted mb-1">Universitas Teknokrat Indonesia</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 31 Januari 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 9 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="950">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/mob.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Pemrograman Mobile Academic Expo - Universitas Teknokrat Indonesia">
+                  <img src="assets/img/sertifikat/mob.png" class="card-img-top rounded-top" alt="Certificate Mobile">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Pemrograman Mobile Academic Expo</h5>
+                  <p class="text-muted mb-1">Universitas Teknokrat Indonesia</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 27 Juni 2023</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 10 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="1050">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/meta.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="Pengenalan Metaverse Workshop 102 - Digital Talent Kominfo">
+                  <img src="assets/img/sertifikat/meta.png" class="card-img-top rounded-top"
+                    alt="Certificate Metaverse">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">
+                    Pengenalan Metaverse Workshop 102
+                  </h5>
+                  <p class="text-muted mb-1">Digitalent & Kominfo</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 22 November 2023</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sertifikat 11 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="1150">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/km.png" class="glightbox" data-gallery="sertifikat-akademik"
+                  data-title="MBKM Kampus Mengajar Angkatan 7 - Kemendikbudristek">
+                  <img src="assets/img/sertifikat/km.png" class="card-img-top rounded-top"
+                    alt="Certificate Kampus Mengajar">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">MBKM Kampus Mengajar Angkatan 7</h5>
+                  <p class="text-muted mb-1">Kemendikbudristek</p>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 28 Juni 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Sertifikat Non-Akademik Section ======= -->
+      <section id="non-akademik" class="certifications section py-5"
+        style="background: linear-gradient(135deg, #111827, #1f2937);">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="section-title text-center mb-5">
+            <h2 class="fw-bold text-white">SERTIFIKAT NON-AKADEMIK</h2>
+            <p class="text-light">
+              Berikut adalah sertifikat kegiatan keorganisasian dan pelatihan
+              di luar akademik yang menunjang pengembangan soft skill saya.
+            </p>
+          </div>
+
+          <div class="row g-4 justify-content-center">
+            <!-- Non-Akademik 1 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="150">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/duta.png" class="glightbox" data-gallery="sertifikat-nonakademik"
+                  data-title="UKM Duta Kampus Teknokrat">
+                  <img src="assets/img/sertifikat/duta.png" class="card-img-top rounded-top"
+                    alt="Certificate Duta Kampus">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">UKM Duta Kampus Teknokrat</h5>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 22 Oktober 2022</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Non-Akademik 2 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="250">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/humas.png" class="glightbox" data-gallery="sertifikat-nonakademik"
+                  data-title="Himpunan Mahasiswa Informatika (HIMA IF)">
+                  <img src="assets/img/sertifikat/humas.png" class="card-img-top rounded-top"
+                    alt="Certificate HIMA Informatika">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Himpunan Mahasiswa Informatika (HIMA IF)
+                  </h5>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 23 Februari 2025</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Non-Akademik 3 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="350">
+              <div class="card shadow-lg border-0 h-100 bg-dark text-white hover-zoom">
+                <a href="assets/img/sertifikat/pan.png" class="glightbox" data-gallery="sertifikat-nonakademik"
+                  data-title="Panitia UKM Duta Kampus 2023">
+                  <img src="assets/img/sertifikat/pan.png" class="card-img-top rounded-top"
+                    alt="Certificate Panitia UKM Duta">
+                </a>
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-semibold text-white">Panitia UKM Duta Kampus 2023</h5>
+                  <p class="small text-light opacity-75 mb-2">Diterbitkan: 27 September 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </main>
 
+  <section id="skills" class="skills section-bg py-5">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title text-center mb-5">
+        <h2 class="fw-bold">My Skills</h2>
+      </div>
+      <!-- SOFT SKILLS -->
+      <div class="skills-card mb-5">
+        <h4 class="mb-3 text-white"><i class="bi bi-people-fill text-info me-2"></i> Soft Skills</h4>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="tag">Jujur</span>
+          <span class="tag">Bertanggung Jawab</span>
+          <span class="tag">Adaptif</span>
+          <span class="tag">Kerja Tim & Individu</span>
+          <span class="tag">Disiplin</span>
+          <span class="tag">Kreatif</span>
+          <span class="tag">Cekatan</span>
+          <span class="tag">Teliti & Detail</span>
+          <span class="tag">Mudah Beradaptasi</span>
+        </div>
+      </div>
+
+      <!-- HARD SKILLS -->
+      <div class="skills-card mb-5">
+        <h4 class="mb-3 text-white"><i class="bi bi-code-slash text-success me-2"></i> Hard Skills</h4>
+        <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="50">
+              <p>Laravel</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="50">
+              <p>Next.js</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50">
+              <p>Bootstrap</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50">
+              <p>CSS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50">
+              <p>Python</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50">
+              <p>Java</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50">
+              <p>HTML</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50">
+              <p>MySQL</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="50">
+              <p>Firebase</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="50">
+              <p>Oracle</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <i class="bi bi-tools text-secondary fs-1"></i>
+              <p>Troubleshooting</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOFTWARE SKILLS -->
+      <div class="skills-card">
+        <h4 class="mb-3 text-white"><i class="bi bi-laptop text-warning me-2"></i> Software Skills</h4>
+        <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="50">
+              <p>Microsoft Office</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="50">
+              <p>Figma</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="50">
+              <p>Canva</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" width="50">
+              <p>Photoshop</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg"
+                width="50">
+              <p>Premiere Pro</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-item">
+              <img class="icon-github"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50">
+              <p>GitHub</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="skill-item">
+              <i class="bi bi-database-fill text-warning fs-1"></i>
+              <p>SQLyog</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- =======dddddd ======= -->
+
+  <main class="main">
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4 justify-content-center">
+          <div class="section-title text-center mb-5">
+            <h2 class="fw-bold">Project</h2>
+          </div>
+
+          <!-- Project 1 -->
+          <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-item shadow-sm rounded-4 p-3 text-center">
+              <img src="assets/img/project/perpustakaan.png" class="img-fluid rounded-3 mb-3"
+                alt="Website Perpustakaan SDN 4 Way Laga">
+              <h4>Website Perpustakaan SDN 4 Way Laga Menggunakan Framework Next.js</h4>
+              <p>Sebuah website sederhana untuk pengelolaan data buku, anggota, dan peminjaman di SDN
+                4
+                Way Laga. Website ini membantu proses administrasi sekolah menjadi lebih
+                terorganisir.
+              </p>
+              <a href="#" class="btn btn-primary btn-sm mt-2"><i class="bi bi-box-arrow-up-right"></i>
+                Detail Project</a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-item shadow-sm rounded-4 p-3 text-center">
+              <img src="assets/img/project/gym.png" class="img-fluid rounded-3 mb-3"
+                alt="Website Gym di Centra Fitness">
+              <h4>Website Gym di Centra Fitness Menggunakan Framework Laravel</h4>
+              <p>Website yang dirancang untuk membantu pengelolaan data member gym, jadwal latihan,
+                dan
+                promosi kelas kebugaran di Centra Fitness. Fokus pada tampilan modern dan responsif.
+              </p>
+              <a href="#" class="btn btn-primary btn-sm mt-2"><i class="bi bi-box-arrow-up-right"></i>
+                Detail Project</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= GALLERY SECTION ======= -->
+  <section id="gallery" class="gallery">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row gy-4">
+        <div class="section-title text-center mb-5">
+          <h2 class="fw-bold">Gallery</h2>
+        </div>
+
+        <!-- GALLERY ITEM 1 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/1.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/1.jpeg" alt="Project UI Dashboard" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Bagi Bagi Takjil Bersama Karang Taruna Kecamatan</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- GALLERY ITEM 2 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/2.jpeg" alt="Landing Page" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Program Kampus Mengajar Angkatan 7</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- GALLERY ITEM 3 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/3.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/3.jpeg" alt="Mobile App Interface" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Gebyar Mahasiswa</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- GALLERY ITEM 4 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/4.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/4.jpeg" alt="Photography" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Foto Pengurus Himpunan Mahasiswa Informatika Angkatan 2020-2021</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- GALLERY ITEM 5 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/5.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/5.jpeg" alt="Teamwork" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Workshop Tahapan Tahapan Skripsi Untuk Pematerinya Kaprodi Informatika</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- GALLERY ITEM 6 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/6.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/6.jpeg" alt="Coding Session" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Buka Bersama Dengan Keluarga Besar Hima IF</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- GALLERY ITEM 7 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/7.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/7.jpeg" alt="Coding Session" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Buka Bersama Dengan Ukm Programming Teknokrat</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- GALLERY ITEM 8 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/8.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/8.jpeg" alt="Coding Session" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Program Kerja Duta Peduli Pendidikan Anak Bangsa</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- GALLERY ITEM 9 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/9.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/9.jpeg" alt="Coding Session" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Ke Pengurusan UKM Duta Teknokrat 2022</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- GALLERY ITEM 10 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/10.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/10.jpeg" alt="Coding Session" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Latihan Dasar Kepemimpinan Hima IF Angkatan 2021</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- GALLERY ITEM 11 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/11.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/11.jpeg" alt="Coding Session" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Final Kederisasi Hima IF untuk Angkatan 2021</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- GALLERY ITEM 12 -->
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/12.jpeg" class="glightbox" data-gallery="gallery-images">
+              <img src="assets/img/gallery/12.jpeg" alt="Coding Session" class="img-fluid">
+              <div class="gallery-info">
+                <h5>Kegiatan Futsal Sparing Bersama</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <main class="main">
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-title text-center mb-5">
+          <h2 class="fw-bold">Contact</h2>
+        </div>
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Kontak Saya</h3>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Lokasi</h4>
+                  <p>Bandar Lampung, Lampung, Indonesia</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Nomer HP</h4>
+                  <p>+62 858-3548-8425</p>
+                </div>
+              </div>
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-whatsapp"></i>
+                </div>
+                <div class="content">
+                  <h4>WhatsApp</h4>
+                  <p>+62 831-6950-1536</p>
+                </div>
+              </div>
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email</h4>
+                  <p>romzazikrianmuhammad@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Hubungi Saya</h3>
+              <p>Jika Anda memiliki pertanyaan atau kekhawatiran, jangan ragu untuk menghubungi saya.
+                Saya terbuka untuk setiap peluang kerja yang sesuai dengan keterampilan dan minat saya
+              </p>
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn"
+                      style="background-color: #a9a599; color: #000; font-weight: bold;">
+                      Send Message
+                    </button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <!-- ======= FOOTER ======= -->
   <footer id="footer" class="footer">
     <div class="container">
-      <div class="copyright text-center ">
+      <div class="copyright text-center">
         <p>© <span>Portfolio</span> <strong class="px-1 sitename"></strong></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
-        Developer Portfolio by <a href="https://bootstrapmade.com/">M. Romza Zikrian</a>
+        Developer Portfolio by <a href="#">M. Romza Zikrian</a>
       </div>
     </div>
   </footer>
@@ -157,6 +1000,32 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <script>
+    document.addEventListener('scroll', () => {
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('.nav-link.scrollto');
+
+      let current = '';
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 150; // atur sesuai tinggi header
+        const sectionHeight = section.clientHeight;
+
+        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').includes(current)) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+
 
 </body>
 
