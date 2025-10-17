@@ -12,29 +12,41 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #101a20; /* Background color for the entire website, including individual sections */
-  --default-color: #e7f2f7; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #1387c1; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #141f26; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root {
+  --background-color: #101a20;
+  /* Background color for the entire website, including individual sections */
+  --default-color: #e7f2f7;
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #ffffff;
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #1387c1;
+  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #141f26;
+  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff;
+  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #1387c1; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #213642; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #051117; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #e7f2f7; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #1387c1; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #ffffff;
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #1387c1;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #213642;
+  /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #051117;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #e7f2f7;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #1387c1;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -693,20 +705,26 @@ section,
 
 /* ===== Fix Nama M. Romza Zikrian agar rata satu baris ===== */
 .hero h1 {
-  white-space: nowrap;     /* mencegah baris turun */
-  font-size: 100px;         /* ubah sesuai ukuran tampilan */
-  line-height: 1.2;        /* menjaga proporsi vertikal */
-  word-spacing: 1px;       /* jarak antar kata */
+  white-space: nowrap;
+  /* mencegah baris turun */
+  font-size: 100px;
+  /* ubah sesuai ukuran tampilan */
+  line-height: 1.2;
+  /* menjaga proporsi vertikal */
+  word-spacing: 1px;
+  /* jarak antar kata */
 }
 
 .hero h1 .highlight {
-  display: inline-block;   /* pastikan tetap sejajar */
+  display: inline-block;
+  /* pastikan tetap sejajar */
 }
 
 /* Responsif di layar kecil */
 @media (max-width: 768px) {
   .hero h1 {
-    white-space: normal;   /* di HP boleh turun */
+    white-space: normal;
+    /* di HP boleh turun */
     font-size: 100px;
   }
 }
@@ -731,9 +749,9 @@ section,
 }
 
 .hero .hero-content h1 {
-    font-size: 41px;
-    font-weight: 600;
-    line-height: 1.5;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 
@@ -765,63 +783,68 @@ section,
 
 /* Warna per kata (pakai !important supaya menimpa gaya lain) */
 .hero .hero-content .dev {
-  color: #00ffb3 !important;  /* hijau neon */
+  color: #00ffb3 !important;
+  /* hijau neon */
 }
 
 .hero .hero-content .edit {
-  color: #00ffb3 !important;  /* pink cerah */
+  color: #00ffb3 !important;
+  /* pink cerah */
 }
 
 .hero .hero-content .design {
-  color: #00ffb3 !important;  /* biru muda */
+  color: #00ffb3 !important;
+  /* biru muda */
 }
 
- .skills-card {
-    background: #111a20;
-    border-radius: 20px;
-    padding: 25px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    transition: all 0.3s ease;
-  }
+.skills-card {
+  background: #111a20;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
 
-  .skills-card:hover {
-    box-shadow: 0 0 25px rgba(0,255,255,0.2);
-  }
+.skills-card:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+}
 
-  .tag {
-    background: #839498;
-    color: #fff;
-    border-radius: 50px;
-    padding: 8px 16px;
-    font-size: 14px;
-    transition: 0.3s;
-  }
+.tag {
+  background: #839498;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-size: 14px;
+  transition: 0.3s;
+}
 
-  .tag:hover {
-    background: #0bbcd1;
-    transform: scale(1.05);
-  }
+.tag:hover {
+  background: #0bbcd1;
+  transform: scale(1.05);
+}
 
-  .skill-item {
-    background: #0d1117;
-    border-radius: 15px;
-    padding: 15px 10px;
-    transition: all 0.3s;
-  }
+.skill-item {
+  background: #0d1117;
+  border-radius: 15px;
+  padding: 15px 10px;
+  transition: all 0.3s;
+}
+
 .icon-github {
-        filter: invert(1) brightness(2);
-    }
-  .skill-item:hover {
-    background: #161b22;
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,255,255,0.1);
-  }
+  filter: invert(1) brightness(2);
+}
 
-  .skill-item p {
-    color: #fff;
-    margin-top: 10px;
-    font-size: 14px;
-  }
+.skill-item:hover {
+  background: #161b22;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 255, 255, 0.1);
+}
+
+.skill-item p {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+}
 
 .hero .hero-content h2 {
   font-size: 1.5rem;
@@ -845,18 +868,21 @@ section,
 /* ===== Fix Nama M. Romza Zikrian ketutupan gambar ===== */
 .hero-content {
   position: relative;
-  z-index: 3; /* pastikan teks berada di atas gambar */
+  z-index: 3;
+  /* pastikan teks berada di atas gambar */
 }
 
 .hero-image {
   position: relative;
-  z-index: 1; /* gambar tetap di bawah teks */
+  z-index: 1;
+  /* gambar tetap di bawah teks */
 }
 
 .hero-content h1,
 .hero-content h2 {
   position: relative;
-  z-index: 4; /* teks paling depan */
+  z-index: 4;
+  /* teks paling depan */
 }
 
 
@@ -944,9 +970,11 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 400px; /* memastikan container-nya ada tinggi */
+  min-height: 400px;
+  /* memastikan container-nya ada tinggi */
   z-index: 1;
-  overflow: visible; /* pastikan elemen tidak terpotong */
+  overflow: visible;
+  /* pastikan elemen tidak terpotong */
 }
 
 .hero .hero-image .image-wrapper {
@@ -963,8 +991,10 @@ section,
   display: block;
   box-shadow: 0 5px 15px color-mix(in srgb, var(--default-color), transparent 95%);
   transition: transform 0.3s ease, opacity 0.3s ease;
-  opacity: 1 !important; /* pastikan tidak transparan */
-  visibility: visible !important; /* pastikan tampil */
+  opacity: 1 !important;
+  /* pastikan tidak transparan */
+  visibility: visible !important;
+  /* pastikan tampil */
 }
 
 .hero .hero-image .image-wrapper img:hover {
@@ -978,7 +1008,8 @@ section,
   right: 0;
   bottom: 0;
   pointer-events: none;
-  z-index: 10; /* supaya elemen ini muncul di atas gambar */
+  z-index: 10;
+  /* supaya elemen ini muncul di atas gambar */
 }
 
 .hero .hero-image .floating-elements .floating-card {
@@ -2994,7 +3025,8 @@ section,
 .resume-title {
   position: relative;
   display: inline-block;
-  color: #fff; /* warna teks */
+  color: #fff;
+  /* warna teks */
   margin-bottom: 20px;
 }
 
@@ -3005,8 +3037,9 @@ section,
   bottom: -6px;
   width: 40px;
   height: 2px;
-  background-color: #0dcaf0; 
-  transform: translateX(-50%);/* warna biru (Bootstrap info) */
+  background-color: #0dcaf0;
+  transform: translateX(-50%);
+  /* warna biru (Bootstrap info) */
 }
 
 /* Tombol Download Resume */
@@ -3039,7 +3072,8 @@ section,
 
 .cta-group {
   margin-top: 25px;
-  text-align: center; /* biar tombol di tengah */
+  text-align: center;
+  /* biar tombol di tengah */
 }
 
 body {
@@ -3055,18 +3089,22 @@ body {
   border-radius: 15px;
   color: #fff;
 }
+
 .project-item:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
+
 .project-item h4 {
   color: #00b4d8;
   font-weight: 600;
 }
+
 .project-item p {
   color: #d8d8d8;
   font-size: 0.95rem;
 }
+
 .project-item img {
   height: 250px;
   object-fit: cover;
@@ -3081,6 +3119,7 @@ body {
   border: none;
   transition: 0.3s;
 }
+
 .project-item .btn:hover {
   background-color: #0096ff;
   transform: scale(1.05);
@@ -3091,56 +3130,62 @@ body {
   color: #00b4d8;
   font-weight: 700;
 }
+
 .section-title p {
   color: #000000;
 }
 
 .certifications {
-    background: linear-gradient(135deg, #0b132b 0%, #1c2541 50%, #3a506b 100%);
-    color: #fff;
+  background: linear-gradient(135deg, #0b132b 0%, #1c2541 50%, #3a506b 100%);
+  color: #fff;
 }
 
 /* Card Style */
 .certifications .card {
-    transition: all 0.3s ease;
-    border-radius: 15px;
+  transition: all 0.3s ease;
+  border-radius: 15px;
 }
+
 .certifications .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 25px rgba(201, 11, 11, 0.15);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(201, 11, 11, 0.15);
 }
 
 /* Gambar Sertifikat */
 .certifications .card img {
-    height: 200px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 /* Hover Zoom Efek */
 .hover-zoom {
-    overflow: hidden;
+  overflow: hidden;
 }
+
 .hover-zoom img {
-    transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
+
 .hover-zoom:hover img {
-    transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 /* Section Title Styling */
 .certifications .section-title h2 {
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
+
 .certifications .section-title p {
-    color: #7d7979;
-    font-size: 0.95rem;
+  color: #7d7979;
+  font-size: 0.95rem;
 }
 
 .certifications .text-muted {
-    color: #ffffff !important; /* jadi putih */
+  color: #ffffff !important;
+  /* jadi putih */
 }
 
 .certifications {
@@ -3168,79 +3213,84 @@ body {
 }
 
 ssection.gallery {
-    padding: 80px 0;
-    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
-    color: #fff;
+  padding: 80px 0;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: #fff;
 }
+
 .gallery-info {
-    background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
+
 .gallery-info h5 {
-    color: #fff;
+  color: #fff;
 }
+
 .gallery-info span {
-    color: #ccc;
+  color: #ccc;
 }
+
 .gallery .section-title h2,
 .gallery .section-title p {
-    color: #fff;
+  color: #fff;
 }
 
 
-        .gallery-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 15px;
-            transition: all 0.4s ease-in-out;
-        }
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+}
 
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: all 0.5s ease;
-        }
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
 
-        .gallery-item:hover img {
-            transform: scale(1.1);
-            filter: brightness(60%);
-        }
+.gallery-item:hover img {
+  transform: scale(1.1);
+  filter: brightness(60%);
+}
 
-        .gallery-info {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding: 15px;
-            background: rgba(0, 0, 0, 0.55);
-            color: #fff;
-            opacity: 0;
-            transition: all 0.4s ease;
-            text-align: center;
-        }
+.gallery-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  opacity: 0;
+  transition: all 0.4s ease;
+  text-align: center;
+}
 
-        .gallery-item:hover .gallery-info {
-            opacity: 1;
-            transform: translateY(0);
-        }
+.gallery-item:hover .gallery-info {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-        .gallery-info h5 {
-            font-size: 18px;
-            margin-bottom: 5px;
-            font-weight: 600;
-        }
+.gallery-info h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
 
-        .gallery-info span {
-            font-size: 14px;
-            color: #ddd;
-        }
+.gallery-info span {
+  font-size: 14px;
+  color: #ddd;
+}
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .gallery-info h5 {
-                font-size: 16px;
-            }
-        }
+/* Responsive */
+@media (max-width: 768px) {
+  .gallery-info h5 {
+    font-size: 16px;
+  }
+}
+
 .hover-zoom img {
   transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
@@ -3282,6 +3332,193 @@ html {
   bottom: -5px;
   width: 100%;
   height: 2px;
-  background-color: #00aaff; /* warna garis biru */
+  background-color: #00aaff;
+  /* warna garis biru */
   transition: 0.3s;
+}
+
+.custom-btn {
+  background: linear-gradient(90deg, #00bfff, #1e90ff);
+  /* gradien biru terang */
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  /* efek glow awal */
+}
+
+.custom-btn:hover {
+  background: linear-gradient(90deg, #33ccff, #3399ff);
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(51, 204, 255, 0.9);
+  /* glow makin terang */
+}
+
+.custom-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+}
+
+.creative-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: #00bfff;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  animation: fadeInUp 1s ease;
+}
+
+.creative-text .typed {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Popup overlay */
+  .image-popup {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.85);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  /* Popup image */
+  .image-popup-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 85vh;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+    animation: zoomIn 0.3s ease-in-out;
+  }
+
+  /* Close button */
+  .image-popup-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .image-popup-close:hover {
+    color: #00e5ff;
+  }
+
+  /* Animations */
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Hover effect on project images */
+  .project-image {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .project-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  }
+
+  .footer {
+  background: linear-gradient(180deg, #0d1117, #000000);
+  color: #ffffff;
+  font-size: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Social Icons */
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer .social-links a {
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.footer .social-links a:hover {
+  background: #00c6ff;
+  color: #000;
+  transform: translateY(-3px);
+}
+
+/* Text and credits */
+.footer .credits {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 150%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(0, 200, 255, 0.1) 0%, transparent 70%);
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.footer * {
+  position: relative;
+  z-index: 1;
 }
